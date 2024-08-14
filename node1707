@@ -1,0 +1,23 @@
+DepthFirstIterative(start)
+previouscount
+newnodes
+repeat
+count
+open
+closed
+while not Null
+do NodePair Head
+Node
+if GoalTest(Node)
+Then return ReconstructPath(NodePair,Closed)
+else closed
+if Head(Depth Bound)
+Then MoveGen(Node)
+Open
+Count
+if PreviousCount
+ThenNew Nodes
+PreviousCount
+DepthBound
+Until New Nodes
+Return
